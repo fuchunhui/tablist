@@ -1,0 +1,23 @@
+{
+  "name": "tablist",
+  "version": "0.1.0",
+  "description": "web components for Tab element.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fuchunhui/tablist.git"
+  },
+  "keywords": [
+    "tab",
+    "web components"
+  ],
+  "author": "fuchunhui",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fuchunhui/tablist/issues"
+  },
+  "homepage": "https://github.com/fuchunhui/tablist#readme"
+}
