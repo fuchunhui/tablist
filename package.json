@@ -1,5 +1,5 @@
 {
-  "name": "tablist",
+  "name": "blue-tablist",
   "version": "0.1.0",
   "description": "web components for Tab element.",
   "main": "index.js",
