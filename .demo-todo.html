@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <link rel="icon" href="/favicon.ico"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>tablist</title>
+    <style>
+      h3 {
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <main id="main">
+      <tab-list> 
+        <h3 slot="nav">原始需求</h3>
+        <div slot="content">
+          <p>两个全屏</p>
+        </div>
+        <h3 slot="nav">旧版本实现</h3>
+        <div slot="content">
+          <p>原始的API</p>
+        </div>
+        <h3 slot="nav">❤新版本实现❤</h3>
+        <div slot="content">
+          <p>新版本API</p>
+        </div>
+      </tab-list>
+      <tab-list href="./src/tab-chrome.css"> 
+        <div slot="nav" class="chrome-tab">原始需求</div>
+        <div slot="content">
+          <p>两个全屏</p>
+        </div>
+        <div slot="nav" class="chrome-tab">旧版本实现</div>
+        <div slot="content">
+          <p>原始的API</p>
+        </div>
+        <div slot="nav" class="chrome-tab">❤新版本实现❤</div>
+        <div slot="content">
+          <p>新版本API</p>
+        </div>
+      </tab-list>
+    </main>
+    <script type="module" src="./src/main.ts"></script>
+  </body>
+</html>
