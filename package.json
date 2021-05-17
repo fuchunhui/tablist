@@ -1,6 +1,6 @@
 {
   "name": "blue-tablist",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "web components for Tab element.",
   "main": "index.js",
   "scripts": {
@@ -10,6 +10,10 @@
     "type": "git",
     "url": "git+https://github.com/fuchunhui/tablist.git"
   },
+  "files": [
+    "lib",
+    "tab.ts"
+  ],
   "keywords": [
     "tab",
     "web components"
@@ -19,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/fuchunhui/tablist/issues"
   },
-  "homepage": "https://github.com/fuchunhui/tablist#readme"
+  "homepage": "https://github.com/fuchunhui/tablist#readme",
+  "devDependencies": {
+    "typescript": "^4.2.4"
+  }
 }
