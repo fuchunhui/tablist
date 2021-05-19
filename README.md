@@ -8,5 +8,8 @@ web components for Tab element.
 - [ ] github pages
 - [ ] 支持多环境使用
 
+import 使用
+浏览器导入（JS文件）
+
 ### 使用说明
 
