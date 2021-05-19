@@ -1,9 +1,12 @@
 {
   "name": "blue-tablist",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "web components for Tab element.",
-  "main": "index.js",
+  "module": "dist/tablist.esm.js",
+  "types": "dist/tablist.d.ts",
+  "unpkg": "dist/tablist.global.js",
   "scripts": {
+    "build": "rollup -c",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -12,7 +15,7 @@
   },
   "files": [
     "lib",
-    "tab.ts"
+    "dist"
   ],
   "keywords": [
     "tab",
@@ -25,6 +28,8 @@
   },
   "homepage": "https://github.com/fuchunhui/tablist#readme",
   "devDependencies": {
+    "rollup-plugin-terser": "^7.0.2",
+    "rollup-plugin-typescript2": "^0.30.0",
     "typescript": "^4.2.4"
   }
 }
