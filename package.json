@@ -1,6 +1,6 @@
 {
   "name": "blue-tablist",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "description": "web components for Tab element.",
   "module": "dist/tablist.esm.js",
   "types": "dist/tablist.d.ts",
