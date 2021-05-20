@@ -2,46 +2,59 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8"/>
-    <link rel="icon" href="/favicon.ico"/>
+    <link rel="icon" href="public/favicon.ico"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>tablist</title>
     <style>
       h3 {
         margin: 0;
       }
+      .section-top {
+        height: 240px;
+      }
+      .sectionn-bottom {
+        height: 400px;
+      }
     </style>
   </head>
   <body>
     <main id="main">
-      <tab-list> 
-        <h3 slot="nav">原始需求</h3>
+      <tab-list class="section-top">
+        <h3 slot="nav">茶卡盐湖</h3>
         <div slot="content">
-          <p>两个全屏</p>
+          <p>走自己的路，其他的交给天空</p>
         </div>
-        <h3 slot="nav">旧版本实现</h3>
+        <h3 slot="nav">胡里山环岛路</h3>
         <div slot="content">
-          <p>原始的API</p>
+          <p>跟着心不会迷路</p>
+          <p>长的是磨难</p>
+          <p>短的是人生</p>
         </div>
-        <h3 slot="nav">❤新版本实现❤</h3>
+        <h3 slot="nav">靖西</h3>
         <div slot="content">
-          <p>新版本API</p>
+          <p>星汉流珠落九天 江眠狮子壮山川<p>
+          <p>鹅泉跃鲤三层浪 伏石牛鸣吹月旋<p>
+          <p>紫璧樵歌赏荫雨 虎寨腾烟四野绵<p>
+          <p>凤凰展翅呈奇瑞 龙潭随饮马投钱<p>
         </div>
       </tab-list>
-      <tab-list href="./src/tab-chrome.css"> 
-        <div slot="nav" class="chrome-tab">原始需求</div>
+      <tab-list class="sectionn-bottom" href="https://unpkg.com/blue-tablist@0/lib/tab-chrome.css"> 
+        <div slot="nav" class="chrome-tab">文件</div>
         <div slot="content">
-          <p>两个全屏</p>
+          <p>新标签页</p>
         </div>
-        <div slot="nav" class="chrome-tab">旧版本实现</div>
+        <div slot="nav" class="chrome-tab">编辑</div>
         <div slot="content">
-          <p>原始的API</p>
+          <p>剪切</p>
+          <p>复制</p>
         </div>
-        <div slot="nav" class="chrome-tab">❤新版本实现❤</div>
+        <div slot="nav" class="chrome-tab">❤历史记录❤</div>
         <div slot="content">
-          <p>新版本API</p>
+          <p>Home</p>
         </div>
       </tab-list>
     </main>
-    <script type="module" src="./src/main.ts"></script>
+    <script type="module" src="https://unpkg.com/blue-tablist@0/dist/tablist.esm.js"></script>
+    <!-- <script src="https://unpkg.com/blue-tablist@1/dist/tablist.umd.js"></script> -->
   </body>
 </html>
