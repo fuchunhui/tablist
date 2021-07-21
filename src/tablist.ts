@@ -52,7 +52,7 @@ class TabList extends HTMLElement {
 
   setCurrentIndex() {
     const index = this.getAttribute('data-index') ?? this.currentIndex
-    this.currentIndex = Number(index);
+    this.currentIndex = Number(index)
   }
 
   bindListeners() {
